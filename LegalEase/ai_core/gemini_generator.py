@@ -19,7 +19,7 @@ class GeminiDocumentGenerator:
         self.api_key = os.getenv("GEMINI_API_KEY", "").strip()
         self.model = os.getenv(
             "GEMINI_MODEL",
-            "gemini-3.8-flash"
+            "gemini-3.7-flash"
         ).strip()
 
         self.demo_mode = (
